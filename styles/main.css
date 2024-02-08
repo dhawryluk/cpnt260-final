@@ -10,13 +10,13 @@
 }
 
 body {
-  background-color: #f9efdb;
+  background-color: hsl(40, 71%, 92%);
   min-height: 100vh;
   font-size: 18px;
 }
 
 .header {
-  background-color: #638889;
+  background-color: hsl(182, 16%, 46%);
   box-shadow: 1px 1px 5px 0px #9dbc98;
   width: 100%;
   top: 0;
@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-  fill: #f9efdb;
+  fill: hsl(40, 71%, 92%);
   font-size: 60px;
 }
 
@@ -33,7 +33,7 @@ body {
   width: 100%;
   height: 100%;
   position: fixed;
-  background-color: #ebd9b4;
+  background-color: hsl(40, 58%, 81%);
   overflow: hidden;
   max-height: 0;
   transition: 0.5s ease-out;
@@ -41,11 +41,11 @@ body {
 .menu a {
   display: block;
   padding: 30px;
-  color: black;
+  color: hsl(0, 0%, 0%);
   font-weight: 600;
 }
 .menu a:hover {
-  background-color: #9dbc98;
+  background-color: hsl(112, 21%, 67%);
   transition: 0.3s ease-in-out;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .hamb-line {
-  background: #f9efdb;
+  background: hsl(40, 71%, 92%);
   display: block;
   height: 2px;
   position: relative;
@@ -65,7 +65,7 @@ body {
 
 .hamb-line::before,
 .hamb-line::after {
-  background: #f9efdb;
+  background: hsl(40, 71%, 92%);
   content: "";
   display: block;
   height: 100%;
@@ -105,7 +105,7 @@ body {
 .bg-image {
   display: flex;
   background-image: url(../images/pexels-cátia-matos-1072179.jpg);
-  height: 80vh;
+  height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -116,10 +116,10 @@ body {
   flex-direction: column;
   margin: auto;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.4);
-  color: #f9efdb;
+  background-color: hsla(0, 0%, 0%, 0.4);
+  color: hsl(40, 71%, 92%);
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  border: 3px solid hsl(0, 0%, 95%);
   padding: 20px 10px;
   text-align: center;
   font-size: 1em;
@@ -157,7 +157,7 @@ body {
 
 .cards .box-container .box {
   text-align: center;
-  border: 0.5rem solid rgb(99, 136, 137, 0.4);
+  border: 0.5rem solid hsla(182, 16%, 46%, 0.4);
 }
 
 .cards .box-container .box img {
@@ -165,7 +165,7 @@ body {
 }
 
 .cards .box-container .box h3 {
-  color: #638889;
+  color: hsl(182, 16%, 46%);
   font-size: 2rem;
   padding: 1rem 0;
 }
@@ -173,11 +173,11 @@ body {
 .cards a {
   display: block;
   padding: 30px;
-  color: black;
+  color: hsl(0, 0%, 0%);
   font-weight: 600;
 }
 .cards a:hover {
-  background-color: #9dbc98;
+  background-color: hsl(112, 21%, 67%);
   transition: 0.3s ease-in-out;
 }
 
@@ -195,7 +195,7 @@ body {
 }
 
 footer {
-  background-color: #638889;
+  background-color: hsl(182, 16%, 46%);
   text-align: center;
   margin-top: auto;
 }
@@ -211,7 +211,7 @@ footer {
 }
 
 .footer-menu a:hover {
-  color: #9dbc98;
+  color: hsl(112, 21%, 67%);
   transition: 0.3s ease;
 }
 .social-list {
@@ -226,19 +226,19 @@ footer {
 }
 
 .contact-me {
-  color: #ebd9b4;
+  color: hsl(40, 58%, 81%);
   font-size: 1.3rem;
   font-weight: 900;
 }
 
 .fa {
   font-size: 2rem;
-  color: #ebd9b4;
+  color: hsl(40, 58%, 81%);
 }
 
 .fa:hover,
 .fa:focus {
-  color: #000;
+  color: hsl(0, 0%, 0%);
   transform: scale(1.1);
   transition: 0.3s ease;
 }

@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/media.css" />
-    <link rel="stylesheet" href="styles/gallery.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <link rel="stylesheet" href="./styles/gallery.css" />
     <script
       src="https://kit.fontawesome.com/0e7c2da82b.js"
       crossorigin="anonymous"
@@ -41,9 +41,9 @@
       <nav class="nav">
         <ul class="menu">
           <li><a href="#">Home</a></li>
-          <li><a href="/html/gallery.html">Gallery</a></li>
-          <li><a href="/html/about.html">About</a></li>
-          <li><a href="/html/contact.html">Contact Us</a></li>
+          <li><a href="./html/gallery.html">Gallery</a></li>
+          <li><a href="./html/about.html">About</a></li>
+          <li><a href="./html/contact.html">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -95,31 +95,30 @@
 
   <footer class="footer">
     <div class="footer-container">
-   
-      <a href="index.html" class="logo"
-      ><svg
-        width="200"
-        height="50"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g clip-path="url(#a)">
-          <path
-            class="logo"
-            d="M40.5 46V10H45v32.25h28.5V46h-33Zm42.0234-27v15c0 1.6719.125 3.0859.375 4.2422.25 1.1406.75 2.0625 1.5 2.7656.75.7031 1.8125 1.211 3.1875 1.5234 1.375.3126 3.1875.4688 5.4375.4688 2.4375 0 4.4297-.1797 5.9766-.5391 1.562-.3593 2.789-.8671 3.68-1.5234.89-.6563 1.5-1.4453 1.828-2.3672.344-.9219.515-1.9453.515-3.0703V19h4.5v27h-4.5v-4.5c-.218.4844-.585 1.0234-1.101 1.6172-.516.5781-1.289 1.1172-2.32 1.6172-1.032.5-2.3676.9218-4.0082 1.2656-1.625.3438-3.6485.5156-6.0704.5156-2.0156 0-3.75-.125-5.2031-.375-1.4375-.2344-2.6641-.5859-3.6797-1.0547-1-.4843-1.8047-1.0781-2.414-1.7812-.6094-.7031-1.0782-1.5156-1.4063-2.4375-.3281-.9375-.5469-1.9766-.6562-3.1172C78.0547 36.6094 78 35.3594 78 34l.0234-15h4.5Zm58.3596 8.0156L162.047 46h-6.375l-17.93-16.0781L120.422 46h-6.375l20.461-18.9844L115.547 10h6.375l15.703 14.1094L152.836 10h6.375l-18.328 17.0156Z"
-            fill="#000"
-          />
-        </g>
-        <defs>
-          <clippath id="a">
-            <path fill="#fff" d="M0 0h200v50H0z" />
-          </clippath>
-        </defs>
-      </svg>
-    </a>
-      <p class="contact-me">Get in touch!</p>
+      <a href="index.html" class="logo" id="div1"
+        ><svg
+          width="200"
+          height="50"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#a)">
+            <path
+              class="logo"
+              d="M40.5 46V10H45v32.25h28.5V46h-33Zm42.0234-27v15c0 1.6719.125 3.0859.375 4.2422.25 1.1406.75 2.0625 1.5 2.7656.75.7031 1.8125 1.211 3.1875 1.5234 1.375.3126 3.1875.4688 5.4375.4688 2.4375 0 4.4297-.1797 5.9766-.5391 1.562-.3593 2.789-.8671 3.68-1.5234.89-.6563 1.5-1.4453 1.828-2.3672.344-.9219.515-1.9453.515-3.0703V19h4.5v27h-4.5v-4.5c-.218.4844-.585 1.0234-1.101 1.6172-.516.5781-1.289 1.1172-2.32 1.6172-1.032.5-2.3676.9218-4.0082 1.2656-1.625.3438-3.6485.5156-6.0704.5156-2.0156 0-3.75-.125-5.2031-.375-1.4375-.2344-2.6641-.5859-3.6797-1.0547-1-.4843-1.8047-1.0781-2.414-1.7812-.6094-.7031-1.0782-1.5156-1.4063-2.4375-.3281-.9375-.5469-1.9766-.6562-3.1172C78.0547 36.6094 78 35.3594 78 34l.0234-15h4.5Zm58.3596 8.0156L162.047 46h-6.375l-17.93-16.0781L120.422 46h-6.375l20.461-18.9844L115.547 10h6.375l15.703 14.1094L152.836 10h6.375l-18.328 17.0156Z"
+              fill="#000"
+            />
+          </g>
+          <defs>
+            <clippath id="a">
+              <path fill="#fff" d="M0 0h200v50H0z" />
+            </clippath>
+          </defs>
+        </svg>
+      </a>
 
-      <ul class="social-list">
+      <ul class="social-list" id="div2">
+        <p class="contact-me">Get in touch!</p>
         <li>
           <a href="https://linkedin.com/in/derek-hawryluk" target="linkedin">
             <i class="fa fa-linkedin" tabindex="0"></i>
@@ -144,13 +143,13 @@
           </a>
         </li>
       </ul>
-         <ul class="footer-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="/html/gallery.html">Gallery</a></li>
-        <li><a href="/html/about.html">About</a></li>
-        <li><a href="/html/contact.html">Contact Us</a></li>
+      <ul class="footer-menu" id="div3">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./html/gallery.html">Gallery</a></li>
+        <li><a href="./html/about.html">About</a></li>
+        <li><a href="./html/contact.html">Contact Us</a></li>
       </ul>
-      <h3 class="copyright">&#169;HawryluX Inc Est. 2024</h3>
+      <h3 class="copyright" id="div4">&#169;HawryluX Inc Est. 2024</h3>
     </div>
   </footer>
 </html>
