@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/media.css" />
+    <link rel="stylesheet" href="/styles/gallery.css" />
+    <script
+      src="https://kit.fontawesome.com/0e7c2da82b.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>HawryluX</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="/index.html" class="logo"
+        ><svg
+          width="200"
+          height="50"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#a)">
+            <path
+              class="logo"
+              d="M40.5 46V10H45v32.25h28.5V46h-33Zm42.0234-27v15c0 1.6719.125 3.0859.375 4.2422.25 1.1406.75 2.0625 1.5 2.7656.75.7031 1.8125 1.211 3.1875 1.5234 1.375.3126 3.1875.4688 5.4375.4688 2.4375 0 4.4297-.1797 5.9766-.5391 1.562-.3593 2.789-.8671 3.68-1.5234.89-.6563 1.5-1.4453 1.828-2.3672.344-.9219.515-1.9453.515-3.0703V19h4.5v27h-4.5v-4.5c-.218.4844-.585 1.0234-1.101 1.6172-.516.5781-1.289 1.1172-2.32 1.6172-1.032.5-2.3676.9218-4.0082 1.2656-1.625.3438-3.6485.5156-6.0704.5156-2.0156 0-3.75-.125-5.2031-.375-1.4375-.2344-2.6641-.5859-3.6797-1.0547-1-.4843-1.8047-1.0781-2.414-1.7812-.6094-.7031-1.0782-1.5156-1.4063-2.4375-.3281-.9375-.5469-1.9766-.6562-3.1172C78.0547 36.6094 78 35.3594 78 34l.0234-15h4.5Zm58.3596 8.0156L162.047 46h-6.375l-17.93-16.0781L120.422 46h-6.375l20.461-18.9844L115.547 10h6.375l15.703 14.1094L152.836 10h6.375l-18.328 17.0156Z"
+              fill="#000"
+            />
+          </g>
+          <defs>
+            <clipPath id="a">
+              <path fill="#fff" d="M0 0h200v50H0z" />
+            </clipPath>
+          </defs>
+        </svg>
+      </a>
+      <input class="side-menu" type="checkbox" id="side-menu" />
+      <label class="hamb" for="side-menu"
+        ><span class="hamb-line"></span
+      ></label>
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="/html/gallery.html">Gallery</a></li>
+          <li><a href="/html/about.html">About</a></li>
+          <li><a href="/html/contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <form
+      id="fs-frm"
+      name="simple-contact-form"
+      accept-charset="utf-8"
+      action="https://formspree.io/f/{form_id}"
+      method="post"
+    >
+      <fieldset id="fs-frm-inputs" control-id="ControlID-1">
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          name="name"
+          id="full-name"
+          placeholder="First and Last"
+          required=""
+          control-id="ControlID-2"
+        />
+        <label for="email-address">Email Address</label>
+        <input
+          type="email"
+          name="_replyto"
+          id="email-address"
+          placeholder="email@domain.tld"
+          required=""
+          control-id="ControlID-3"
+        />
+        <label for="message">Message</label>
+        <textarea
+          rows="5"
+          name="message"
+          id="message"
+          placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+          required=""
+          control-id="ControlID-4"
+        ></textarea>
+        <input
+          type="hidden"
+          name="_subject"
+          id="email-subject"
+          value="Contact Form Submission"
+          control-id="ControlID-5"
+        />
+      </fieldset>
+      <input type="submit" value="Submit" control-id="ControlID-6" />
+    </form>
+    <style>
+      /* reset */
+      #fs-frm input,
+      #fs-frm select,
+      #fs-frm textarea,
+      #fs-frm fieldset,
+      #fs-frm optgroup,
+      #fs-frm label,
+      #fs-frm #card-element:disabled {
+        font-family: inherit;
+        font-size: 100%;
+        color: inherit;
+        border: none;
+        border-radius: 0;
+        display: block;
+        width: 90%;
+        padding-top: 120px;
+        margin: auto;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+      #fs-frm label,
+      #fs-frm legend,
+      #fs-frm ::placeholder {
+        font-size: 0.825rem;
+        margin-bottom: 0.5rem;
+        padding-top: 0.2rem;
+        display: flex;
+        align-items: baseline;
+      }
+
+      /* border, padding, margin, width */
+      #fs-frm input,
+      #fs-frm select,
+      #fs-frm textarea,
+      #fs-frm #card-element {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 0.75em 1rem;
+        margin-bottom: 1.5rem;
+      }
+      #fs-frm input:focus,
+      #fs-frm select:focus,
+      #fs-frm textarea:focus {
+        background-color: white;
+        outline-style: solid;
+        outline-width: thin;
+        outline-color: gray;
+        outline-offset: -1px;
+      }
+      #fs-frm [type="text"],
+      #fs-frm [type="email"] {
+        width: 100%;
+      }
+      #fs-frm [type="button"],
+      #fs-frm [type="submit"],
+      #fs-frm [type="reset"] {
+        width: auto;
+        cursor: pointer;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+      }
+      #fs-frm [type="button"]:focus,
+      #fs-frm [type="submit"]:focus,
+      #fs-frm [type="reset"]:focus {
+        outline: none;
+      }
+      #fs-frm [type="submit"],
+      #fs-frm [type="reset"] {
+        margin-bottom: 30px;
+      }
+      #fs-frm select {
+        text-transform: none;
+      }
+
+      #fs-frm [type="checkbox"] {
+        -webkit-appearance: checkbox;
+        -moz-appearance: checkbox;
+        appearance: checkbox;
+        display: inline-block;
+        width: auto;
+        margin: 0 0.5em 0 0 !important;
+      }
+
+      #fs-frm [type="radio"] {
+        -webkit-appearance: radio;
+        -moz-appearance: radio;
+        appearance: radio;
+      }
+
+      /* address, locale */
+      #fs-frm fieldset.locale input[name="city"],
+      #fs-frm fieldset.locale select[name="state"],
+      #fs-frm fieldset.locale input[name="postal-code"] {
+        display: inline;
+      }
+      #fs-frm fieldset.locale input[name="city"] {
+        width: 52%;
+      }
+      #fs-frm fieldset.locale select[name="state"],
+      #fs-frm fieldset.locale input[name="postal-code"] {
+        width: 20%;
+      }
+      #fs-frm fieldset.locale input[name="city"],
+      #fs-frm fieldset.locale select[name="state"] {
+        margin-right: 3%;
+      }
+    </style>
+  </body>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <ul class="footer-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="/html/gallery.html">Gallery</a></li>
+        <li><a href="/html/about.html">About</a></li>
+        <li><a href="/html/contact.html">Contact Us</a></li>
+      </ul>
+      <p class="contact-me">Get in touch!</p>
+
+      <ul class="social-list">
+        <li>
+          <a href="https://linkedin.com/in/derek-hawryluk" target="linkedin">
+            <i class="fa fa-linkedin" tabindex="0"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:derek.hawryluk@edu.sait.ca" target="email">
+            <i class="fa fa-envelope" tabindex="0"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/dhawryluk" target="github">
+            <i class="fa fa-github" tabindex="0"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCEDWUq44kx-UonOTYjG2YFA"
+            target="youtube"
+          >
+            <i class="fa fa-youtube" tabindex="0" target="youtube"></i>
+          </a>
+        </li>
+      </ul>
+      <h3 class="copyright">&#169;HawryluX Inc Est. 2024</h3>
+    </div>
+  </footer>
+</html>

@@ -1,0 +1,75 @@
+/* Responsiveness */
+@media only screen and (min-width: 768px) {
+  .nav {
+    max-height: none;
+    top: 0;
+    position: relative;
+    float: right;
+    width: fit-content;
+    background-color: transparent;
+  }
+  .menu li {
+    float: left;
+  }
+  .menu a:hover {
+    background-color: transparent;
+    color: #f9efdb;
+  }
+
+  .hamb {
+    display: none;
+  }
+
+
+  .photo-1,
+  .photo-2,
+  .photo-3,
+  .photo-4,
+  .photo-5,
+  .photo-6,
+  .photo-7,
+  .photo-8,
+  .photo-9 {
+    max-width: 32%;
+    margin: 0;
+  }
+
+  .bottom-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 1.5rem;
+  }
+
+  .social-list {
+    gap: 2rem;
+  }
+
+  #fs-frm input,
+  #fs-frm select,
+  #fs-frm textarea,
+  #fs-frm fieldset,
+  #fs-frm optgroup,
+  #fs-frm label,
+  #fs-frm #card-element:disabled {
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .footer-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer-menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 1.4em;
+  }
+}
