@@ -13,11 +13,16 @@
   }
   .menu a:hover {
     background-color: transparent;
-    color: #f9efdb;
+    color: hsl(40, 71%, 92%);
   }
 
   .hamb {
     display: none;
+  }
+
+  .cards {
+    max-width: 100%;
+    margin: auto;
   }
 
   .photo-1,
