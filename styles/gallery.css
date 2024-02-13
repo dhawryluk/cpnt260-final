@@ -54,11 +54,11 @@
 }
 
 .photo-1 {
-  background-image: url(/images/pexels-andre-furtado-2916821.jpg);
+  background-image: url(./images/pexels-andre-furtado-2916821.jpg);
 }
 
 .photo-2 {
-  background-image: url(/images/pexels-avinash-patel-544542.jpg);
+  background-image: url(../images/pexels-avinash-patel-544542.jpg);
 }
 
 .photo-3 {
